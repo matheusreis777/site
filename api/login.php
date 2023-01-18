@@ -69,22 +69,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
 </head>
 
 <body id="myPage-login" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="./index.html">Home</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <!--<li><a href="./login.html">Login</a></li> -->
-                </ul>
-            </div>
-        </div>
-    </nav>
+
     <div class="container" id="pag-login">
         <form id="form-login" action="" method="POST">
             <label>E-mail</label>
@@ -99,7 +84,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
             <a>
                 <center>Esqueceu sua senha?</center>
             </a>
-            <a href="./cadastro.html">
+            <a href="login-cadastro.php">
                 <center>Cadastre-se</center>
             </a>
         </form>
